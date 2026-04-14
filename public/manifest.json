@@ -1,7 +1,7 @@
 {
   "short_name": "OFT",
   "name": "Open Family Tree",
-  "description": "A dark-mode, stunning, local-first genealogy platform.",
+  "description": "A quick, login-free, local-first, genealogy platform.",
   "icons": [
     {
       "src": "/vite.svg",

@@ -35,7 +35,7 @@ Open Family Tree operates as an ultra-lightweight frontend-only instance bundled
 
 \`\`\`bash
 # 1. Clone the repository
-git clone https://github.com/your-username/open-family-tree.git
+git clone https://github.com/ryanturcotte/open-family-tree.git
 cd open-family-tree
 
 # 2. Install dependencies
