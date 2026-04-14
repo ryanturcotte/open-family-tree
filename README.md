@@ -1,11 +1,7 @@
-<br />
-<div align="center">
-  <h1 align="center">Open Family Tree</h1>
-  <p align="center">
-    A login-free, local-first genealogy and family tree platform built with React & Tailwind CSS.
-  </p>
-</div>
-## DISCLAIMER: This webapp was created through prompting in Google Antigravity. If this bothers you, don't use this app.
+# Open Family Tree
+A login-free, local-first genealogy and family tree platform built with React & Tailwind CSS.
+
+DISCLAIMER: This webapp was created through prompting in Google Antigravity. If this bothers you, don't use this app.
 
 ## Quickstart
 Open the Github Pages app at: https://ryanturcotte.github.io/open-family-tree/
@@ -16,7 +12,7 @@ Open Family Tree is a privacy-oriented, client-side React Web App allowing you t
 ---
 
 ## Features
-- **Data Privacy & Security:** **No database.** All parsing, saving, scaling, and compression runs completely within your Local Browser Storage. You generate and hold the 100% offline `.json` dumps.
+- **Data Privacy & Security:** No database. All parsing, saving, scaling, and compression runs completely within your Local Browser Storage. You generate and hold the 100% offline `.json` dumps.
 - **Dynamic Display Engine:** Instantly toggle the visibility of birth/death dates and location data directly on the tree nodes via the global Settings portal.
 - **Format-Agnostic Date System:** Input dates in any string format; the engine uses heuristic parsing to render them in your preferred regional style (MDY, DMY, YMD, or Raw).
 - **Flexible Details Interface:** Transition seamlessly between a classic **Docked** sidebar or a **Floating** tracking panel that dynamically repositions itself based on available screen real estate.
@@ -33,17 +29,22 @@ Open Family Tree is a privacy-oriented, client-side React Web App allowing you t
 ## Build From Scratch
 Open Family Tree operates as an ultra-lightweight frontend-only instance bundled through Vite.
 
-\`\`\`bash
-# 1. Clone the repository
-git clone https://github.com/ryanturcotte/open-family-tree.git
-cd open-family-tree
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/ryanturcotte/open-family-tree.git
+   cd open-family-tree
+   ```
 
-# 2. Install dependencies
-npm install
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
 
-# 3. Spin up the Vite Dev Server
-npm run dev
-\`\`\`
+3. **Spin up the Vite Dev Server**
+   ```bash
+   npm run dev
+   ```
+
 Visit `http://localhost:5173` in your browser.
 
 ## Technology Used
