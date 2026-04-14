@@ -1,0 +1,17 @@
+{
+  "short_name": "OFT",
+  "name": "Open Family Tree",
+  "description": "A dark-mode, stunning, local-first genealogy platform.",
+  "icons": [
+    {
+      "src": "/vite.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "theme_color": "#a855f7",
+  "background_color": "#09090b"
+}

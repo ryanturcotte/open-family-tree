@@ -1,0 +1,20 @@
+@import "tailwindcss";
+@custom-variant dark (&:is(.dark *));
+
+@layer base {
+  body {
+    @apply bg-zinc-50 text-zinc-900 dark:bg-zinc-950 dark:text-zinc-50 font-sans antialiased transition-colors duration-300;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+  }
+}
+
+/* Base xyflow styles so we can style them */
+.react-flow__node {
+  @apply rounded-lg shadow-lg;
+}
+
+.react-flow__handle {
+  @apply border border-zinc-800 bg-zinc-400;
+}
